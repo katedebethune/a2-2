@@ -2,7 +2,6 @@
 
 require('Bmi.php');
 require('Form.php');
-require('tools.php');
 
 $bmiObject= new Bmi();
 $form= new DWA\Form($_GET);
