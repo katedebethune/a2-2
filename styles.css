@@ -1,8 +1,8 @@
 .container
 {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .form-control
@@ -11,17 +11,20 @@
     width: auto;
 }
 
-.alert {
-   margin-left: auto;
-   margin-right: auto;
-   width:50%;
+.alert
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
 }
 
-label {
-  margin-right: 10px;
+label
+{
+    margin-right: 10px;
 }
 
-img {
-  width: 220px;
-  height: 250px;
+img
+{
+    width: 220px;
+    height: 250px;
 }
