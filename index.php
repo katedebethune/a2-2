@@ -36,13 +36,13 @@
 
 					      <div class="form-group">
 						         <label>Gender:</label>
-  					         <label ><input type='radio' name='gender' value='male' checked='checked' <?php if($gender == 'male') echo 'CHECKED'?>>Male</label>
+  					         <label ><input type='radio' name='gender' value='male' <?php if($gender == 'male') echo 'CHECKED'?>>Male</label>
   					         <label ><input type='radio' name='gender' value='female' <?php if($gender == 'female') echo 'CHECKED'?> >Female</label>
   				      </div>
 
   				      <div class="form-group">
 						        <label>Activity level:</label>
-  					        <label ><input type='radio' name='activity' value='sedentary' checked='checked' <?php if($activity == 'sedentary') echo 'CHECKED'?>> Sedentary</label>
+  					        <label ><input type='radio' name='activity' value='sedentary' <?php if($activity == 'sedentary') echo 'CHECKED'?>> Sedentary</label>
   					        <label ><input type='radio' name='activity' value='moderate' <?php if($activity == 'moderate') echo 'CHECKED'?>> Moderate</label>
   					        <label><input type='radio' name='activity' value='active' <?php if($activity == 'active') echo 'CHECKED'?>> Active</label>
   				      </div>
