@@ -55,10 +55,10 @@
 						        <button type='submit' class='btn btn-primary btn-small'>Calculate</button>
   				      </div>
 				    </fieldset>
-  		  		</form>
+  		  </form>
 
 				<?php if($form->isSubmitted()): ?>
-            <?php if($errors): ?>
+            <?php  if($errors): ?>
 		            <div class='alert alert-danger'>
 			              <ul>
 				                <?php foreach($errors as $error): ?>
