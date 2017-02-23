@@ -6,10 +6,6 @@ require('Form.php');
 $bmiObject= new Bmi();
 $form= new DWA\Form($_GET);
 
-$calChecked=false; #calChecked keeps track of whether the check
-$info=true;
-$submitted=false;
-
 $weight = $form->sanitize($form->get('weight',$default=1));
 $height = $form->sanitize($form->get('height',$default=1));
 $age = $form->sanitize($form->get('age',$default=0));
@@ -29,9 +25,6 @@ if ($form->isSubmitted()){
         'gender'=>'required'
     ]
     );
-
-    if($errors)
-        $info=false;
 
     $bmi=$bmiObject->bmiCal($weight,$height);
 
