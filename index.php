@@ -56,7 +56,7 @@
   				      </div>
 				    </fieldset>
   		  		</form>
-			  </div>
+
 				<?php if($form->isSubmitted()): ?>
             <?php if($errors): ?>
 		            <div class='alert alert-danger'>
@@ -73,7 +73,8 @@
 			               <div class='alert alert-success'>Your required calorie intake is <?=$calories?></div>
 		            <?php endif; ?>
             <?php endif; ?>
-        <?php endif; ?>
+				<?php endif; ?>
 
+				</div>
 		</body>
 </html>
