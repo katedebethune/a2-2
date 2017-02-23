@@ -21,17 +21,17 @@
 				    <fieldset>
   				      <div class="form-group">
   					       <label for='weight'>* Weight(lbs)</label>
-						       <input type='text' name='weight'  placeholder='Weight' autocomplete='off' class="form-control" value='<?php if(isset($_GET['weight'])) echo $_GET['weight'] ?>'><br>
+						       <input type='text' id='weight' name='weight'  placeholder='Weight' autocomplete='off' class="form-control" value='<?php if(isset($_GET['weight'])) echo $_GET['weight'] ?>'><br>
 					      </div>
 
   				      <div class="form-group">
 						        <label for='height'>* Height(inches)</label>
-						        <input type='text' name='height' placeholder='Height' autocomplete='off' class="form-control" value='<?php if(isset($_GET['height'])) echo $_GET['height'] ?>'><br>
+						        <input type='text' id='height' name='height' placeholder='Height' autocomplete='off' class="form-control" value='<?php if(isset($_GET['height'])) echo $_GET['height'] ?>'><br>
   				      </div>
 
 					      <div class="form-group">
 						        <label for='age'>* Age</label>
-						        <input type='text' name='age' placeholder='Age' autocomplete='off' class="form-control" value='<?php if(isset($_GET['age'])) echo $_GET['age'] ?>'><br>
+						        <input type='text' id='age' name='age' placeholder='Age' autocomplete='off' class="form-control" value='<?php if(isset($_GET['age'])) echo $_GET['age'] ?>'><br>
 					      </div>
 
 					      <div class="form-group">
@@ -55,8 +55,8 @@
 						        <button type='submit' class='btn btn-primary btn-small'>Calculate</button>
   				      </div>
 				    </fieldset>
-  		  </form>
-
+  		  		</form>
+			  </div>
 				<?php if($form->isSubmitted()): ?>
             <?php if($errors): ?>
 		            <div class='alert alert-danger'>
