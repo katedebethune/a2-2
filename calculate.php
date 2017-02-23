@@ -25,6 +25,8 @@ if ($form->isSubmitted()){
         'weight'=>'required|numeric',
         'height'=>'required|numeric',
         'age'=>'required|numeric',
+        'activity'=>'required',
+        'gender'=>'required'
     ]
     );
 
